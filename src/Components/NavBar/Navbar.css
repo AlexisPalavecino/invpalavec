@@ -1,0 +1,47 @@
+header{
+    display: flex;
+    background-color: #2a2c28;
+}
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-top: 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2a2c28;
+    list-style: none;
+}
+
+img{
+    display: flex;
+    height: auto;
+    width: 200px;
+    height: 100px;
+    margin: 5px;
+    padding: 10px;
+}
+
+a{
+    display: block;
+    padding: 10px 15px;
+    margin: 5px;
+    color: bisque;
+    font-size: 20px;
+    font-weight: 100;
+    text-decoration: none;
+
+}
+
+.carrito{   
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    margin-top: 30px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: flex-end;
+}

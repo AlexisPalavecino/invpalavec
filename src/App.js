@@ -2,10 +2,11 @@ import React from 'react';
 import NavBar from './Components/NavBar/NavBar'
 import './App.css';
 
-function App() {
+const App = () => {
   return (
-          <NavBar />
-    );
+    < NavBar /> 
+    
+  );
 }
 
 export default App;
