@@ -3,6 +3,7 @@ import logo from '../../assets/newlogo.png'
 import lupa from '../../assets/loupe_03.png'
 import carrito from '../../assets/carrito01.png'
 import './Navbar.css'
+import CartWidget from "./CartWidget"
 
 
 const NavBar = () => {
@@ -18,7 +19,8 @@ const NavBar = () => {
             <a href=""> Contacto</a>
             
         </nav>
-        <img src={carrito} alt="" class="carrito" />
+       
+        <CartWidget />
         </header> 
     )
 }
